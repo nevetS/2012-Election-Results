@@ -5,7 +5,7 @@ pjs.config({
     format: 'json',
     // options: 'stdout' or 'file' (set in config.outFile)
     writer: 'file',
-    outFile: 'ca_senate.json'
+    outFile: 'ca_pres.json'
 });
 
 pjs.addSuite({
