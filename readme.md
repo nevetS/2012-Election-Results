@@ -15,8 +15,8 @@ Status
 Currently scrapes the CA Secretary of State site for vote counts.
 
 Outputs json data to:
-ca_senate.json
-ca_pres.json
-ca_measures.json
+*ca_senate.json
+*ca_pres.json
+*ca_measures.json
 
 JSON files contain a list of candidates/measures and the vote counts.
