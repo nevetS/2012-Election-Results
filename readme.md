@@ -45,6 +45,9 @@ inside that file is essentially two lines of code:
  
 have a look at ca_pres.js for how it works, or reference the [pjscrape quickstart page](http://nrabinowitz.github.com/pjscrape/#quickstart)
 
-Once that's done, add the appropriate line to pjscrape.bat:
-phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js ca_pres.js
+Once that's done, add the appropriate line to pjscrape.bat. 
+
+The format is: path-to-pahntomjs.exe path-to-pjscrape.js path-to-scrapingJavascriptFile
+  
+  phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js ca_pres.js
 
