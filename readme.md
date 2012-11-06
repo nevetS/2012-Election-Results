@@ -6,6 +6,15 @@ This will run on Windows As-Is.  On other platforms, you will need to install
 and
 [PhantomJS](http://code.google.com/p/phantomjs/downloads/list)
 
+For Non Techie Types:
+=============
+ * There's a "ZIP" link above.  Click on it to download all the stuff here.
+ * Extract the zip to somewhere on your hard disk
+ * double click on scrape.bat inside the new folder
+ * double click on index.html 
+ 
+ Any time you want an update, simply double click on scrape.bat again and refresh or re-open index.html
+
 Usage:
 =============
  * Run scrape.bat from the command line
