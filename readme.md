@@ -32,3 +32,19 @@ Output example:
   "election":"CA President",
   "reporting":"\n            0.0% ( 0 of 24,491 ) precincts partiallyreporting as of November 6, 2012, 12:59 p.m. \n\t\t\t\t\tVisit the County Reporting Status page to determine when a county has submitted its latest report.\n\t\t"}
 ]
+
+Adding Sites to pull data from
+==============
+each site to scrape from get's it's on javascript file:
+
+eg: ca_pres.js
+
+inside that file is essentially two lines of code:
+ 1. the config that sets the output file
+ 2. the scraping rule
+ 
+have a look at ca_pres.js for how it works, or reference the [pjscrape quickstart page](http://nrabinowitz.github.com/pjscrape/#quickstart)
+
+Once that's done, add the appropriate line to pjscrape.bat:
+phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js ca_pres.js
+
