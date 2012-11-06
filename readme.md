@@ -8,11 +8,14 @@ and
 
 Usage:
 =============
-Run scrape.bat from the command line
+ * Run scrape.bat from the command line
+ * Open up index.html to view results
+
 
 Status 
 =============
-Currently scrapes the CA Secretary of State site for vote counts.
+ Currently scrapes the CA Secretary of State site for vote counts and displays the results in a single web page.
+ 
 
 Outputs json data to:
  * ca_senate.json
@@ -32,6 +35,10 @@ Output example:
   "election":"CA President",
   "reporting":"\n            0.0% ( 0 of 24,491 ) precincts partiallyreporting as of November 6, 2012, 12:59 p.m. \n\t\t\t\t\tVisit the County Reporting Status page to determine when a county has submitted its latest report.\n\t\t"}
 ]
+
+Viewing Results
+==============
+
 
 Adding Sites to pull data from
 ==============
