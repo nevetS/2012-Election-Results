@@ -73,6 +73,7 @@ function init(){
   do_election('ca_senate.json'); 
   do_measures('ca_measures.json');
   do_election('pa_pres.json');
+  do_election('oh_pres.json');
 }
 
 $(document).ready(init) ;
