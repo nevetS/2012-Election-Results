@@ -37,6 +37,7 @@ Status
   //do_measures('ca_measures.json');
 
 Sample listing:
+![alt text][logo]
 [logo]: https://raw.github.com/nevetS/2012-Election-Results/master/sample.png "Example Results"
 
 
