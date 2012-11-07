@@ -16,15 +16,26 @@ function do_election(dataurl){
  	 	 table.append(header3);
 
    	 for(var candidate in cdata){
-   	 	 if(candidate != 'election' && candidate != 'reporting'){
-   	 	   tdata = '<tr>';
-   	 	   tdata += '<td>'+candidate+'</td>';
-   	 	   tdata += '<td align="middle">'+ cdata[candidate]['votes']+'</td>';
-   	 	   tdata += '<td align="middle">' + cdata[candidate]['percent']+ '</td>'
-   	 	   tdata += '</tr>';   	 	
-   	 	   table.append($(tdata));
+   	 	 if(candidate != 'election' && candidate != 'reporting'  ){ 
+   	 	 	 if(dataurl.indexOf('pres') > 0){
+   	 	 	 	if ((candidate.indexOf('bama') > 0 || candidate.indexOf('omney') > 0 )||(candidate.indexOf('BAMA') > 0 || candidate.indexOf('OMNEY') > 0 )){
+   	 	         tdata = '<tr>';
+   	 	         tdata += '<td>'+candidate+'</td>';
+   	 	         tdata += '<td align="middle">'+ cdata[candidate]['votes']+'</td>';
+   	 	         tdata += '<td align="middle">' + cdata[candidate]['percent']+ '</td>'
+   	 	         tdata += '</tr>';   	 	
+   	 	         table.append($(tdata));                                                 
+   	 	   }
+   	 	 } else {
+   	 	         tdata = '<tr>';
+   	 	         tdata += '<td>'+candidate+'</td>';
+   	 	         tdata += '<td align="middle">'+ cdata[candidate]['votes']+'</td>';
+   	 	         tdata += '<td align="middle">' + cdata[candidate]['percent']+ '</td>'
+   	 	         tdata += '</tr>';   	 	
+   	 	         table.append($(tdata));                                                 
    	 	 }
    	 }
+   }
 
      
      $('.result').append(table.html());
@@ -70,8 +81,8 @@ function do_measures(dataurl){
 
 function init(){
   do_election('ca_pres.json');
-  do_election('ca_senate.json'); 
-  do_measures('ca_measures.json');
+  //do_election('ca_senate.json'); 
+  //do_measures('ca_measures.json');
   do_election('pa_pres.json');
   do_election('oh_pres.json');
   do_election('fl_pres.json');
