@@ -23,12 +23,22 @@ Usage:
 
 Status 
 =============
- Currently scrapes the CA Secretary of State site for vote counts and displays the results in a single web page. 
+ Currently a few different official state election pages. 
+ * Added CA presidential election, senate, and ballot measures
  * Added PA presidential election
  * Added OH presidential election
  * Added FL presidential election
  * Added CO presidential election
  
+ To enable the senate and ballot measures being displayed, find and uncomment two lines in pagebuilder.js:
+  
+  //do_election('ca_senate.json'); 
+  
+  //do_measures('ca_measures.json');
+
+Sample listing:
+[logo]: https://raw.github.com/nevetS/2012-Election-Results/master/sample.png "Example Results"
+
 
 Outputs json data to various .json files (e.g. ca_pres.json)
 
