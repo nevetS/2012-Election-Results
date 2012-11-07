@@ -78,3 +78,10 @@ The format is: path-to-pahntomjs.exe path-to-pjscrape.js path-to-scrapingJavascr
   
   phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js ca_pres.js
 
+Help Wanted
+==============
+ * Adding more states - I need help identifying the right web pages and building scraping functions
+ * Data Visualization - that would be pretty cool
+ * Styling the web page
+ * Automating the scrapes
+ * Auto-posting results to a web site so they can be crowdsourced
