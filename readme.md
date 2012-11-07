@@ -24,16 +24,13 @@ Usage:
 Status 
 =============
  Currently scrapes the CA Secretary of State site for vote counts and displays the results in a single web page. 
- *Added PA presidential election
- *Added OH presidential election
- *Added FL presidential election
- *Added CO presidential election
+ * Added PA presidential election
+ * Added OH presidential election
+ * Added FL presidential election
+ * Added CO presidential election
  
 
-Outputs json data to:
- * ca_senate.json
- * ca_pres.json
- * ca_measures.json
+Outputs json data to various .json files (e.g. ca_pres.json)
 
 JSON files contain a list of candidates/measures and the vote counts. 
 
