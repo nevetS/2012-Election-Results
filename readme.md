@@ -27,6 +27,7 @@ Status
  *Added PA presidential election
  *Added OH presidential election
  *Added FL presidential election
+ *Added CO presidential election
  
 
 Outputs json data to:

@@ -4,3 +4,4 @@ phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js c
 phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js pa_pres.js
 phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js oh_pres.js
 phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js fl_pres.js
+phantomjs-1.7.0-windows\phantomjs.exe nrabinowitz-pjscrape-19fd7c1\pjscrape.js co_pres.js

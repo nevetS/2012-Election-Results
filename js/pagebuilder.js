@@ -75,6 +75,7 @@ function init(){
   do_election('pa_pres.json');
   do_election('oh_pres.json');
   do_election('fl_pres.json');
+  do_election('co_pres.json');
 }
 
 $(document).ready(init) ;
