@@ -46,8 +46,7 @@ Output example:
   "reporting":"\n            0.0% ( 0 of 24,491 ) precincts partiallyreporting as of November 6, 2012, 12:59 p.m. \n\t\t\t\t\tVisit the County Reporting Status page to determine when a county has submitted its latest report.\n\t\t"}
 ]
 
-Viewing Results
-==============
+
 
 
 Adding Sites to pull data from
