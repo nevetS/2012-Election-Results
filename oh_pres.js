@@ -9,7 +9,7 @@ pjs.config({
 });
 
 pjs.addSuite({
-                       url: 'http://vote.sos.ca.gov/returns/us-senate/'
+                       url: 'http://www2.sos.state.oh.us/pls/enrpublic/f?p=212:41:135238791157703::NO::P41_REGION,P41_RACE_CODE:Statewide,PR'
                       ,scraper: function(){
            var tbl = $('#R5301016563267310 table table').map(function() {
                     return $(this).find('td').map(function() {
