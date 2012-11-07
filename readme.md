@@ -23,7 +23,9 @@ Usage:
 
 Status 
 =============
- Currently scrapes the CA Secretary of State site for vote counts and displays the results in a single web page.
+ Currently scrapes the CA Secretary of State site for vote counts and displays the results in a single web page. 
+ *Added PA presidential election
+ *Added OH presidential election
  
 
 Outputs json data to:

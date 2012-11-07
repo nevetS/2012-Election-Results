@@ -74,6 +74,7 @@ function init(){
   do_measures('ca_measures.json');
   do_election('pa_pres.json');
   do_election('oh_pres.json');
+  do_election('fl_pres.json');
 }
 
 $(document).ready(init) ;
